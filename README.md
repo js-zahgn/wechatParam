@@ -1,10 +1,5 @@
-# wechatParam https://mp.weixin.qq.com
-# 小程序
-# AppID：wx23c19bb71488a868   qq：2927973510   
-# AppID：wx853e041f13cbfb65   qq：156231639    
+# 小程序监听用户行为
 
-# tencentMap
-# key
-key: T7EBZ-QLPK6-Z3PSL-M7PUS-GG7PV-QBBBO
-# keyName
-name: zahgnTencentMapKey
+1、改写 App,Page,Component 的函数配置实现
+
+2、改写函数名中含有标识的函数，在有标识的函数中增加上传事件参数等数据
