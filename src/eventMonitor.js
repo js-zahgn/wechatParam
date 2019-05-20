@@ -86,6 +86,7 @@ const fnProxy = (name, event) => {
 
 Component = function (conf) {
   const { methods } = conf;
+  // 监听组件生命周期是否有意义
   componentLifeCircle.map(fnName => {
     conf[fnName] && (conf[fnName] = fnProxy(fnName, conf[fnName]));
   });
